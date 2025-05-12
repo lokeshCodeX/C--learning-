@@ -12,3 +12,4 @@ c:\Users\Asus\Desktop\c#\obj\Debug\net9.0\refint\c#.dll
 c:\Users\Asus\Desktop\c#\obj\Debug\net9.0\c#.pdb
 c:\Users\Asus\Desktop\c#\obj\Debug\net9.0\c#.genruntimeconfig.cache
 c:\Users\Asus\Desktop\c#\obj\Debug\net9.0\ref\c#.dll
+C:\Users\Asus\Desktop\c#\obj\Debug\net9.0\c#.sourcelink.json
