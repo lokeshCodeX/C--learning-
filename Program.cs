@@ -54,49 +54,68 @@
 
 
 // try to prectise of encpsulation
+// using System;
+
+// namespace First
+// {
+//     class A
+//     {
+//         private int mobile;
+
+//         public int GetMobile()
+//         {
+//             return mobile;
+//         }
+
+//         public void SetMobile(int mobile)
+//         {
+//             this.mobile = mobile;
+//         }
+//     }
+
+//     class Program
+//     {
+//         int a;
+//         string name;
+
+//         public void Print(string name, int a)
+//         {
+//             Console.WriteLine("Name of the object: " + name + ", Age of the object: " + a);
+//         }
+
+//         static void Main(string[] args)
+//         {
+            
+//             Console.WriteLine("Make object");
+
+//             Program a = new Program();
+//             a.Print("Lokesh", 23);
+
+//             Console.WriteLine("Try to use getter/setter and the encapsulation concept:");
+//             A obj = new A();
+//             obj.SetMobile(5734872);
+//             Console.WriteLine("Number of the object two: " + obj.GetMobile());
+//         }
+//     }
+// }
+
+
 using System;
 
 namespace First
 {
-    class A
-    {
-        private int mobile;
-
-        public int GetMobile()
-        {
-            return mobile;
-        }
-
-        public void SetMobile(int mobile)
-        {
-            this.mobile = mobile;
-        }
-    }
-
     class Program
     {
-        int a;
-        string name;
-
-        public void Print(string name, int a)
-        {
-            Console.WriteLine("Name of the object: " + name + ", Age of the object: " + a);
-        }
-
         static void Main(string[] args)
         {
-            Console.WriteLine("Make object");
-
-            Program a = new Program();
-            a.Print("Lokesh", 23);
-
-            Console.WriteLine("Try to use getter/setter and the encapsulation concept:");
-            A obj = new A();
-            obj.SetMobile(5734872);
-            Console.WriteLine("Number of the object two: " + obj.GetMobile());
+        //    Console.WriteLine("hello string");
+        //    S obj=new S();
+        //    obj.run();
+        Arrayy arr=new Arrayy();
+        arr.arrays();
         }
     }
 }
 
 
- 
+
